@@ -1,0 +1,29 @@
+title: "BRF BoKlok Ryttaren"
+description: "Välkommen till BRF BoKlok Ryttaren"
+baseurl: "" # lämna tomt för custom domän eller org-sida
+url: "https://brf-boklok-ryttaren.github.io" # uppdatera vid egen domän
+theme: minima # enkel standardtema (stöds av GitHub Pages)
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+collections:
+  protokoll:
+    output: true
+    permalink: /protokoll/:path/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "nyheter"
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: "protokoll"
+    values:
+      layout: default
