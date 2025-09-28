@@ -2,17 +2,16 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>{{ page.title | default: site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {% if site.theme == nil %}
-    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}" />
-    {% endif %}
+
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+    />
   </head>
   <body>
-    {% include header.html %}
-    <main>{{ content }}</main>
-    <footer style="margin-top: 2rem; font-size: 0.9em; color: #666">
-      © {{ site.title }} — Uppdaterad {{ site.time | date: "%Y-%m-%d" }}
-    </footer>
+    {% include page-header.html %}
+    <main id="content" class="main-content" role="main">{{ content }}</main>
   </body>
 </html>

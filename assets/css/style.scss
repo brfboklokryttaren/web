@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
