@@ -1,5 +1,5 @@
 ---
-title: Hem
+title: BRF BoKlok Ryttaren
 layout: default
 ---
 
