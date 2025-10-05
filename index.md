@@ -3,20 +3,18 @@ title: Hem
 layout: default
 ---
 
-# Välkommen till {{ site.title }}
+# Välkommen till {{ site.title }} i Gunsta
 
-Här publicerar styrelsen information och uppdateringar för boende i föreningen.
+**BRF BoKlok Ryttaren** ligger i natursköna Gunsta, strax öster om Uppsala.
+Föreningen består av moderna bostadsrätter byggda av BoKlok AB, omgivna av skog, gångvägar och närhet till både natur och kollektivtrafik.
 
----
+Här bor vi i ett lugnt, barnvänligt område med gemensamma grönytor, lekplatser och närhet till den charmiga museijärnvägen Lännakatten, som passerar alldeles intill och bidrar till områdets unika karaktär.
 
-## Exempel lista
-
-- 2025-10-05: Höststädning söndag 12 oktober kl 10:00, samling vid cykelförrådet.
-- 2025-09-28: Nya skyltar har satts upp i garaget.
-- 2025-06-23: Årsstämman hölls, protokoll finns hos styrelsen.
+![ryttaren]({{ '/assets/img/ryttaren.jpg' | relative_url }})
 
 ---
 
 ## Kontakt
 
-Har du frågor? Kontakta styrelsen på **brfboklokryttaren@gmail.com**
+För frågor och information är du välkommen att kontakta styrelsen på  
+📧 **[brfboklokryttaren@gmail.com](mailto:brfboklokryttaren@gmail.com)**
