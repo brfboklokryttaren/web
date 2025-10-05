@@ -2,10 +2,16 @@ title: "BRF BoKlok Ryttaren"
 description: "Välkommen till BRF BoKlok Ryttaren!"
 theme: jekyll-theme-cayman
 
-url: "https://brf-boklok-ryttaren.github.io"
-baseurl: ""
+url: "https://brfboklokryttaren.github.io"
+baseurl: "/web"
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# GitHub Pages compatibility
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
