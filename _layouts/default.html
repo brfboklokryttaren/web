@@ -3,7 +3,31 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>{{ page.title | default: site.title }}</title>
+
+    {% seo %}
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "url": "{{ site.url }}",
+        "logo": "{{ site.url }}/assets/img/ryttaren.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Gunsta",
+          "addressRegion": "Uppsala län",
+          "addressCountry": "SE"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "brfboklokryttaren@gmail.com",
+          "contactType": "customer service"
+        }
+      }
+    </script>
 
     <link
       rel="stylesheet"

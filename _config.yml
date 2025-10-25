@@ -1,14 +1,38 @@
 title: "BRF BoKlok Ryttaren"
-description: "Välkommen till BRF BoKlok Ryttaren!"
+description: "BRF BoKlok Ryttaren i Gunsta - moderna bostadsrätter omgivna av natur, nära Uppsala. Information för boende i föreningen."
 theme: jekyll-theme-cayman
 
 url: "https://brfboklokryttaren.se"
 baseurl: ""
 
+# SEO settings
+author: "BRF BoKlok Ryttaren Styrelse"
+locale: sv_SE
+lang: sv
+
+social:
+  name: BRF BoKlok Ryttaren
+  links:
+    - https://brfboklokryttaren.se
+
+# SEO defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      author: "BRF BoKlok Ryttaren"
+      image: /assets/img/ryttaren.jpg
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# Sitemap settings
+sitemap:
+  lastmod: true
+  priority: 0.7
+  changefreq: "monthly"
 
 # GitHub Pages compatibility
 github: [metadata]

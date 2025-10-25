@@ -1,6 +1,9 @@
 ---
-title: BRF BoKlok Ryttaren
+title: "BRF BoKlok Ryttaren"
+description: "BRF BoKlok Ryttaren i Gunsta utanför Uppsala. Moderna bostadsrätter i naturskön miljö nära Lännakatten museijärnväg. Information för boende."
+keywords: "BRF BoKlok Ryttaren, Gunsta, Uppsala, bostadsrätter, BoKlok, Lännakatten, bostadsrättsförening"
 layout: default
+image: /assets/img/ryttaren.jpg
 ---
 
 # Välkommen till {{ site.title }} i Gunsta
